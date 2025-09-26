@@ -1,6 +1,6 @@
-enum Delivery_Status {
-	DELIVERED,
-	NOTORDERED,
-	PACKAGELOST,
-	ONGOINGDELIVERY
+public enum Delivery_Status {
+	DELIVERED : string = "delivered",
+	NOTORDERED : string = "not ordered",
+	PACKAGELOST = "package lost",
+	ONGOINGDELIVERY: "ongoing delivery" 
 }
