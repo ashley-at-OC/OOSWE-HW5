@@ -1,9 +1,7 @@
 public class Catalog {
 
 	private int totalNumberOfItems;
-
 	private string category;
-
 	private int storeID;
 
 	public void selectItem() {
@@ -20,5 +18,5 @@ public class Catalog {
 		// TODO - implement Catalog.filterByCatagory
 		throw new UnsupportedOperationException();
 	}
-	
+
 }

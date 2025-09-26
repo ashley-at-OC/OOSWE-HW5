@@ -1,9 +1,7 @@
 public class User {
 
 	public string firstName;
-	
 	public string lastName;
-	
 	public int accountID;
 	
 	private string userType;
