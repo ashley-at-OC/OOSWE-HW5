@@ -1,6 +1,7 @@
 public class Transaction_History {
 
 	private int totalTransactions;
+	
 	private array listOfTransactions;
 
 	private void filterByDate() {
