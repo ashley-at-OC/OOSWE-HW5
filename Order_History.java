@@ -1,6 +1,6 @@
 public class Order_History {
 
-	private array orderedItems;
+	private Item[] orderedItems;
 
 	/**
 	 * 

@@ -2,8 +2,8 @@ public class Catalog {
 
 	private int totalNumberOfItems;
 
-	private string category;
-	
+	private String category;
+
 	private int storeID;
 
 	public void selectItem() {

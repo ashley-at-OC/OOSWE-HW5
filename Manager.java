@@ -13,9 +13,13 @@ public class Manager extends Employee {
 	 * 
 	 * @param discountAmount
 	 */
-	private void addItemDiscount(int discountAmount) {
+	public void addItemDiscount(Item item, double discountAmount) {
 		// TODO - implement Manager.addItemDiscount
-		throw new UnsupportedOperationException();
+
+		item.isOnDiscount = true;
+		double newCost = item.getCost() - (item.getCost() * discountAmount);
+		item.discountedCost = newCost;
+
 	}
 
 	/**

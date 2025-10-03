@@ -1,8 +1,8 @@
 public class Transaction_History {
 
 	private int totalTransactions;
-	
-	private array listOfTransactions;
+
+	private Transaction[] listOfTransactions;
 
 	private void filterByDate() {
 		// TODO - implement Transaction_History.filterByDate

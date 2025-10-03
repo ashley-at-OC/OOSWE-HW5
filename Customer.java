@@ -2,9 +2,9 @@ public class Customer extends User {
 
 	private int rewardPoints;
 
-	private string closestStoreLocation;
-	
-	private array recommendedItems;
+	private String closestStoreLocation;
+
+	private Item[] recommendedItems;
 
 	public void addItemToCart() {
 		// TODO - implement Customer.addItemToCart

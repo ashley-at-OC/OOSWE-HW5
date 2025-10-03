@@ -1,11 +1,11 @@
 public class Transaction {
 
-	private string itemName;
+	private String itemName;
 
-	private string paymentMethod;	
+	private String paymentMethod;
 
 	private double tax;
-	
+
 	private double totalCost;
 
 	public void isValidated() {

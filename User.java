@@ -1,12 +1,12 @@
 public class User {
 
-	public string firstName;
+	public String firstName;
 
-	public string lastName;
-	
+	public String lastName;
+
 	public int accountID;
-	
-	private string userType;
+
+	private String userType;
 
 	/**
 	 * 

@@ -2,21 +2,28 @@ public class Item {
 
 	public int itemID;
 
-	public string itemName;
+	public String itemName;
 
 	public double cost;
 
 	public int amount;
 
-	public string category;
+	public String category;
 
-	public bool isOutOfStock;
+	public boolean isOutOfStock;
 
 	public int totalPurchased;
 
 	public int rating;
 
-	public string image;
-	
-	public bool isOnDiscount;
+	public String image;
+
+	public boolean isOnDiscount;
+
+	public double discountedCost;
+
+	public double getCost() {
+		return cost;
+	}
+
 }
