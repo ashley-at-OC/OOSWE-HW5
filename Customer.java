@@ -1,7 +1,9 @@
 public class Customer extends User {
 
 	private int rewardPoints;
+
 	private string closestStoreLocation;
+	
 	private array recommendedItems;
 
 	public void addItemToCart() {
