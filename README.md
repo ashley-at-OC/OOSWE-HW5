@@ -1,3 +1,3 @@
 Use of Microsoft Copilot (AI):
 Ran into a lot of issues trying to get Mockito framework set-up. Microsoft Copilot suggested installing Byte-Buddy and Objenesis, and installing those two worked. 
-Asked Microsoft Pilot if Mockito was similar to NSubstitute (another unit testing framework I've used before), and it compared substitutes to mocks and the use of Returns() to stubs which helped my overall understanding of how to use them. 
+Asked Microsoft Pilot if Mockito was similar to NSubstitute (another unit testing framework I've used before), and it compared substitutes to mocks and the use of Returns() to stubs which helped my overall understanding of how to use them. Asked Microsoft Pilot to remove the use of Maven in my config file (which I had pulled from a website) and helped flag the the backward slashes and semicolons in my compile path that was causing the configuration file to fail. 
